@@ -1,0 +1,10 @@
+[package]
+name = "term_selection"
+version = "0.1.0"
+authors = ["Ross Lannen <ross.lannen@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+term_selection_derive = { path = "../term-selection-derive" }
